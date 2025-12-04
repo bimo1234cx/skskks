@@ -99,3 +99,22 @@ td {
     from { opacity: 0; transform: translateY(10px); }
     to { opacity: 1; transform: translateY(0); }
 }
+
+/* === Save Button Styling === */
+.save-btn {
+    background: linear-gradient(135deg, #7f6df2, #6a4fcf);
+    padding: 12px 22px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: 0.25s;
+    box-shadow: 0 5px 13px rgba(120, 90, 200, 0.25);
+}
+
+.save-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(120, 90, 200, 0.35);
+}

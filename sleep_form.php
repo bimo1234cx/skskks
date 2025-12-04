@@ -26,7 +26,7 @@ if (isset($_POST['submit'])) {
         Jam Tidur: <input type="time" name="jamTidur" required><br><br>
         Jam Bangun: <input type="time" name="jamBangun" required><br><br>
 
-        <button type="submit" name="submit">Simpan</button>
+        <button type="submit" name="submit" class="button save-btn">Simpan</button>
     </form>
 
     <br>
